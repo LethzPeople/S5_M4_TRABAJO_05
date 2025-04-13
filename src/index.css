@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilos personalizados */
+
+body {
+  font-family: 'Press Start 2P', cursive;
+}
+
+
+.bg-rick-morty {
+  background-image: url('./assets/rick-and-morty-green-portal-3d-background-scaled.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
